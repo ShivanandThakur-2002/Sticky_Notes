@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color:yellow;
+}
+
+.signin ul li{
+  list-style: none;
+  margin:50px;
+  margin-right:200px;
+  font-size: 20px;
+}
+
+.nav img{
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+.action{
+  /* border: 2px solid red; */
+  /* height: 500px; */
+  display: flex;
+}
+
+.tagline{
+  /* border: 2px solid black; */
+  width: 40%;
+  /* height: 496px; */
+}
+
+.tagline h1{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.tagline h4{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sticky textarea{
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+#color{
+  border-radius: 20px;
+  background: linear-gradient(135deg, orange 60%, cyan);
+  
+}
+
+.addbutton button{
+  margin-top: 1rem;
+  margin-left: 43%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(135deg, orange 60%, cyan);
+  
+}
+
+.storage h1{
+  margin-left: 20rem;
+  margin-top: 15px;
+  display: grid;
+}
+
+#hide_line{
+  margin-left: 18.7rem;
+  margin-top: 100px;
+}
+
+#notes-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.note {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.note button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.footer{
+  background-color: grey;
+  height: 135px;
+  margin-top: 30px;
+  
+}
+
+.footer h2{
+  text-align: center;
+}

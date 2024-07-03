@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div class="nav">
+      <img src="Assets/sticky-notes.png" alt="">
+    </div>
+    <div class="signin">
+      <ul>
+        <li>SIGN IN</li>
+      </ul>
+    </div>
+  </div>
+  <div class="action">
+    <div class="tagline">
+      <h1>Online Sticky Notes</h1>
+      <h4>Bring your team together for fun and effective remote meetings</h4>
+      <div class="sticky">
+        <textarea name="" id="text_area" cols="30" rows="10"></textarea>
+        <input type="color" name="" id="color">
+      </div>
+      <div class="addbutton" id="button">
+        <button>Add Note</button>
+      </div>  
+    </div>
+    <div class="storage">
+      <h1>Your notes</h1>
+      <p id="hide_line">You have not added a note yet</p>
+      <div id="notes-container"></div>
+    </div>  
+  </div>
+  <div class="footer">
+    <h2>Made By shvanand thakur</h2>
+  </div>
+  <script src="Script.js"></script>
+</body>
+</html>
